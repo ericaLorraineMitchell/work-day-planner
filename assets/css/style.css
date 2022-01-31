@@ -4,7 +4,7 @@ body {
   line-height: 1;
 }
 
-textarea {
+.textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -21,9 +21,8 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.header h3 {
-  padding: 35px;
-  font-weight: bold;
+.jumbotron h3 {
+  margin-top: 45px;
 }
 
 .description {
