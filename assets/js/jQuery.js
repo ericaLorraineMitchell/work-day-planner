@@ -14,8 +14,15 @@ setInterval(displayCurrent, 1000);
 //SAVE EVENT TO LOCAL STORAGE & PREVENT DEFAULT RESET
 $(".saveBtn").on("click", function (e) {
   console.log(e.currentTarget.className);
-//   $(e.target).parent().find("input").val();
-//   localStorage.setItem("event", savedEvent);
+
+  //ISSUE//
+
+  //This returns 2 verbose violations!!!!!!!
+  //   $(e.target).parent().find("input").val();
+  //   localStorage.setItem("event", savedEvent);
+
+  //Alternative: Should this be parsed out into individual inputs and local storage?
+  // localStorage.setItem("input", description1.text());
 });
 
 //ON SAVE OF EVENT COLOR CODE BASED UPON CURRENT TIME
