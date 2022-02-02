@@ -1,8 +1,8 @@
 var currentDisplayEl = document.getElementById("current-display");
-var rightNow = moment().format("MMM DD, YYYY [at] hh:mm:ss a");
 
 // DISPLAYS CURRENT DATE AND TIME
 function displayCurrent() {
+  var rightNow = moment().format("MMM DD, YYYY [at] hh:mm:ss a");
   currentDisplayEl.textContent = rightNow;
 }
 
@@ -35,7 +35,7 @@ showTasks();
 function colorTime() {
   var taskEl = $(".description");
   var currentHour = moment().hour();
-  console.log(taskEl);
+  // console.log(taskEl);
   taskEl.each(function (i) {
     // console.log(i);
     var currentInput = $(this);
