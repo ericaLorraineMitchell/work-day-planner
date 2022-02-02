@@ -10,4 +10,4 @@ Used JavaScript, jQuery and moment.js
 
 ![screenshot](assets/images/screenshot.png)
 
-![Link to site](https://ericalorrainemitchell.github.io/work-day-planner/)
+[Link to site](https://ericalorrainemitchell.github.io/work-day-planner/)
